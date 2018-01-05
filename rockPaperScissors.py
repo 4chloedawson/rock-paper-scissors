@@ -24,7 +24,6 @@ def getHumanMove():
 #######################
 
 
-
 #######################
 # getComputerMove
 #   randomly chooses a move (rock/paper/scissors)
@@ -62,6 +61,7 @@ def getWinner(player1, player2):
 # end of getWinner
 #######################
 
+
 #######################
 # displayScore
 #   displays the current score
@@ -71,6 +71,7 @@ def displayScore():
 #
 # end of displayScore
 #######################
+
 
 # ### MAIN PROGRAM ################
 #
@@ -98,6 +99,5 @@ while count <= rounds:
         print ("your move: " + player1 + ", my move: " + player2)
         getWinner(player1, player2)
         count = count + 1
-
 
 print ("The game is over. Thanks for playing!")
